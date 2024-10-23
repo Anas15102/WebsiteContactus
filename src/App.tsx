@@ -1,0 +1,129 @@
+import React from 'react';
+import { Toaster } from 'react-hot-toast';
+import { BookOpen, Users, Trophy, MapPin, Mail, Phone, Clock } from 'lucide-react';
+import Navbar from './components/Navbar';
+import ContactForm from './components/ContactForm';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <Toaster position="top-center" />
+      <Navbar />
+
+      {/* Hero Section */}
+      <section id="home" className="pt-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">Excellence Academy</h1>
+            <p className="text-xl md:text-2xl mb-8">Empowering Minds, Shaping Futures</p>
+            <a
+              href="#contact"
+              className="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+            >
+              Get Started
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section id="about" className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Us?</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-6 bg-white rounded-lg shadow-lg">
+              <BookOpen className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Expert Faculty</h3>
+              <p className="text-gray-600">Learn from experienced educators dedicated to your success</p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-lg shadow-lg">
+              <Users className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Small Batch Size</h3>
+              <p className="text-gray-600">Personalized attention in small, focused groups</p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-lg shadow-lg">
+              <Trophy className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Proven Results</h3>
+              <p className="text-gray-600">Consistent track record of student achievements</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Updates Section */}
+      <section id="updates" className="py-20 bg-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">Latest Updates</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <span className="text-sm text-blue-600 font-semibold">March 15, 2024</span>
+              <h3 className="text-xl font-bold mt-2">New Batch Starting Soon</h3>
+              <p className="text-gray-600 mt-2">Registration open for Spring 2024 batch. Limited seats available.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <span className="text-sm text-blue-600 font-semibold">March 10, 2024</span>
+              <h3 className="text-xl font-bold mt-2">Free Demo Classes</h3>
+              <p className="text-gray-600 mt-2">Join our free demo classes every Saturday. Experience our teaching methodology.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="text-xl font-semibold mb-6">Get in Touch</h3>
+              <ContactForm />
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold mb-6">Our Location</h3>
+              <div className="bg-gray-100 p-4 rounded-lg mb-6">
+                <iframe
+                  title="location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1!2d-73.98!3d40.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40.75!4d-73.98!5e0!3m2!1sen!2sus!4v1"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="space-y-4">
+                <div className="flex items-center">
+                  <MapPin className="h-5 w-5 text-blue-600 mr-2" />
+                  <span>123 Education Street, City, Country</span>
+                </div>
+                <div className="flex items-center">
+                  <Mail className="h-5 w-5 text-blue-600 mr-2" />
+                  <span>contact@excellenceacademy.com</span>
+                </div>
+                <div className="flex items-center">
+                  <Phone className="h-5 w-5 text-blue-600 mr-2" />
+                  <span>+1 234 567 890</span>
+                </div>
+                <div className="flex items-center">
+                  <Clock className="h-5 w-5 text-blue-600 mr-2" />
+                  <span>Mon-Sat: 9:00 AM - 6:00 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-white py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p>&copy; 2024 Excellence Academy. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
