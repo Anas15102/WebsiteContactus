@@ -1,12 +1,13 @@
 import React from 'react';
+import './ContactForm.css'; // Import the CSS file
 
 const ContactForm = () => {
   return (
-    <div>
+    <div className="contact-form">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSfkElbiT_8X-TWAGqm7-jcbyJF3W9RnvF3UiMIaci3078KFOg/viewform?embedded=true"
-        width="625"
-        height="500"
+        width="100%" /* Redundant with CSS, but can be left here */
+        height="1758"
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
@@ -16,6 +17,8 @@ const ContactForm = () => {
     </div>
   );
 };
+
+export default ContactForm;
 
 // export default ContactForm;
 // import React from 'react';
