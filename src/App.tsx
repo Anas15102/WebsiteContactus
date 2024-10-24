@@ -83,7 +83,7 @@ function App() {
               <div className="bg-gray-100 p-4 rounded-lg mb-6">
                 <iframe
                   title="location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1!2d-73.98!3d40.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40.75!4d-73.98!5e0!3m2!1sen!2sus!4v1"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13999.232200884935!2d77.271963!3d28.695388!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd78f53c9fe1%3A0x2db1e94d343c31b5!2sKalam%20Academy!5e0!3m2!1sen!2sin!4v1729763948458!5m2!1sen!2sin"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
