@@ -96,7 +96,7 @@ function App() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-blue-600 mr-2" />
-                  <span>Madarsa Islamia Arabia Talimul Quran Street No. 23B Vijay Park Delhi 110053 (India) Near Tayyaba Masjid</span>
+                  <span>Madarsa Islamia Arabia Talimul Quran, Street No.23B Vijay Park, Delhi 110053, Near Tayyaba Masjid</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-blue-600 mr-2" />
