@@ -112,7 +112,7 @@ function App() {
           </div>
         </div>
       </section> 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfkElbiT_8X-TWAGqm7-jcbyJF3W9RnvF3UiMIaci3078KFOg/viewform?embedded=true" width="640" height="1758" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+       
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
