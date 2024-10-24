@@ -60,7 +60,7 @@ function App() {
               <h3 className="text-xl font-bold mt-2">New Batch Starting Soon</h3>
               <p className="text-gray-600 mt-2">Registration open for new batch. Limited seats available.</p>
               {/* to add pdf */}
-              <a href="https://drive.google.com/file/d/1qyf6zwPnP8u39qYGuiWJZtdHbegGPoZh/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}> Click here to view pdf </a> 
+              <a href="https://drive.google.com/file/d/1qyf6zwPnP8u39qYGuiWJZtdHbegGPoZh/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style={{ color: 'red' }}> Click here to view pdf </a> 
             </div>
           </div>
         </div>
