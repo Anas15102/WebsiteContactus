@@ -1,0 +1,5 @@
+/* ContactForm.css */
+.contact-form iframe {
+  width: 100%; /* Ensures full width on all devices */
+  border: none; /* Removes default border */
+}
