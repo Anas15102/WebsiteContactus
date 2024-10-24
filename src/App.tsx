@@ -56,14 +56,11 @@ function App() {
           <h2 className="text-3xl font-bold text-center mb-12">Latest Updates</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <span className="text-sm text-blue-600 font-semibold">March 15, 2024</span>
+              <span className="text-sm text-blue-600 font-semibold">Oct 24, 2024</span>
               <h3 className="text-xl font-bold mt-2">New Batch Starting Soon</h3>
-              <p className="text-gray-600 mt-2">Registration open for Spring 2024 batch. Limited seats available.</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <span className="text-sm text-blue-600 font-semibold">March 10, 2024</span>
-              <h3 className="text-xl font-bold mt-2">Free Demo Classes</h3>
-              <p className="text-gray-600 mt-2">Join our free demo classes every Saturday. Experience our teaching methodology.</p>
+              <p className="text-gray-600 mt-2">Registration open for new batch. Limited seats available.</p>
+              {/* to add pdf */}
+              <a href="https://drive.google.com/file/d/1qyf6zwPnP8u39qYGuiWJZtdHbegGPoZh/view?usp=drive_link" target="_blank" rel="noopener noreferrer" > Click here to view pdf </a> 
             </div>
           </div>
         </div>
