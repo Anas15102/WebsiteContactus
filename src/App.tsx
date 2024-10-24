@@ -14,8 +14,8 @@ function App() {
       <section id="home" className="pt-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Excellence Academy</h1>
-            <p className="text-xl md:text-2xl mb-8">Empowering Minds, Shaping Futures</p>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">Hazrat Shah Waliullah</h1>
+            <p className="text-xl md:text-2xl mb-8">Career Guidance And Coaching Academy</p>
             <a
               href="#contact"
               className="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
