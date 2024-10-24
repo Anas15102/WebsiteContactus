@@ -3,3 +3,26 @@
   width: 100%; /* Ensures full width on all devices */
   border: none; /* Removes default border */
 }
+/* Adjust the width of the iframe based on screen size */
+@media (max-width: 768px) {
+  iframe {
+    width: 100%;
+  }
+}
+
+/* Adjust the height of the iframe based on screen size */
+@media (max-height: 600px) {
+  iframe {
+    height: 400px;
+  }
+}
+
+/* Adjust the layout for portrait orientation */
+@media (orientation: portrait) {
+  /* Your styles for portrait orientation */
+}
+
+/* Adjust the layout for landscape orientation */
+@media (orientation: landscape) {
+  /* Your styles for landscape orientation */
+}
