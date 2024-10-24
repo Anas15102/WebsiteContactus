@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <GraduationCap className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-800">Excellence Academy</span>
+            <span className="ml-2 text-xl font-bold text-gray-800">Hazrat Shah Waliullah</span>
           </div>
           
           <div className="hidden md:block">
