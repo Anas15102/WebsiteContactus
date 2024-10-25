@@ -80,7 +80,7 @@ function App() {
               <div className="bg-gray-100 p-4 rounded-lg mb-6">
                 <iframe
                   title="location"
-                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3499.799926136674!2d77.27730907550311!3d28.695630975630372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQxJzQ0LjMiTiA3N8KwMTYnNDcuNiJF!5e0!3m2!1sen!2sin!4v1729767855358!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6999.580992694713!2d77.27982!3d28.695913!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQxJzQ0LjMiTiA3N8KwMTYnNDcuNiJF!5e0!3m2!1sen!2sin!4v1729866845209!5m2!1sen!2sin"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
