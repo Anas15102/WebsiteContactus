@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div className="contact-form">
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfkElbiT_8X-TWAGqm7-jcbyJF3W9RnvF3UiMIaci3078KFOg/viewform?embedded=true"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdK5AR_vglAIkGaGCsJybDj_GTXHEmXdURW3I9OWcTX-rtJgQ/viewform?embedded=true"
         width="100%" /* Redundant with CSS, but can be left here */
         height="520"
         frameBorder="0"
