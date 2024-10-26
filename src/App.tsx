@@ -97,12 +97,13 @@ function App() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-blue-600 mr-2" />
-                  <span>contact@excellenceacademy.com</span>
+                  <span>shahwaliullahacademay@gmail.com</span>
                 </div>
-                <div className="flex items-center">
+{/* contact */}
+                {/*                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-2" />
                   <span>+1 234 567 890</span>
-                </div>
+                </div> */}
                 <div className="flex items-center">
                   <Clock className="h-5 w-5 text-blue-600 mr-2" />
                   <span>Mon-Sat: 9:00 AM - 6:00 PM</span>
