@@ -15,7 +15,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Hazrat Shah Waliullah</h1>
-            <p className="text-xl md:text-2xl mb-8">Career Guidance And Coaching Academy</p>
+            <p className="text-xl md:text-2xl mb-8">Career Guidance and Coaching Academy</p>
             <a
               href="#contact"
               className="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
@@ -59,9 +59,43 @@ function App() {
               <span className="text-sm text-blue-600 font-semibold">Oct 24, 2024</span>
               <h3 className="text-xl font-bold mt-2">New Batch Starting Soon</h3>
               <p className="text-gray-600 mt-2">Registration open for new batch. Limited seats available.</p>
-              {/* to add pdf */}
-{/*               <a href="your pdf file url link" rel="noopener noreferrer" style={{ color: 'red' }}> Click here to view pdf </a>  */}
+              
+              {/*<a href="your pdf file url link" rel="noopener noreferrer" style={{ color: 'red' }}> Click here to view pdf </a>  */}
             </div>
+
+
+
+
+            {/* <div className="bg-white p-6 rounded-lg shadow-md">
+              <span className="text-sm text-blue-600 font-semibold">March 10, 2024</span>
+              <h3 className="text-xl font-bold mt-2">Enterance Test Shedule</h3>
+              <p className="text-gray-600 mt-2">PDF</p>
+              <a href="your pdf file url link" rel="noopener noreferrer" style={{ color: 'red' }}> Click here to view pdf </a> 
+            </div>  */}
+
+
+
+
+            {/* <div className="bg-white p-6 rounded-lg shadow-md">
+              <span className="text-sm text-blue-600 font-semibold">Oct 24, 2024</span>
+              <h3 className="text-xl font-bold mt-2">Result</h3>
+              <p className="text-gray-600 mt-2">Result are out download the pdf</p>
+              
+              <a href="your pdf file url link" rel="noopener noreferrer" style={{ color: 'red' }}> Click here to view pdf </a>  
+            </div> */}
+
+
+
+
+            {/* <div className="bg-white p-6 rounded-lg shadow-md">
+              <span className="text-sm text-blue-600 font-semibold">March 10, 2024</span>
+              <h3 className="text-xl font-bold mt-2">Class Shedules</h3>
+              <p className="text-gray-600 mt-2">Shedules of your class are out now. Download the pdf</p>
+              <a href="your pdf file url link" rel="noopener noreferrer" style={{ color: 'red' }}> Click here to view pdf </a> 
+            </div>  */}
+
+
+
           </div>
         </div>
       </section>
@@ -99,13 +133,13 @@ function App() {
                   <Mail className="h-5 w-5 text-blue-600 mr-2" />
                   <span>shahwaliullahacademay@gmail.com</span>
                 </div>
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-2" />
                   <span>+1 234 567 890</span>
-                </div>
+                </div> */}
                 <div className="flex items-center">
                   <Clock className="h-5 w-5 text-blue-600 mr-2" />
-                  <span>Mon-Sat: 9:00 AM - 6:00 PM</span>
+                  <span>Mon-Sat: 8:00 AM - 11:00 AM</span>
                 </div>
               </div>
             </div>
