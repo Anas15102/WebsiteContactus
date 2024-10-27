@@ -89,7 +89,7 @@ function App() {
 
             {/* <div className="bg-white p-6 rounded-lg shadow-md">
               <span className="text-sm text-blue-600 font-semibold">March 10, 2024</span>
-              <h3 className="text-xl font-bold mt-2">Class Shedules</h3>
+              <h3 className="text-xl font-bold mt-2">Class Schedule</h3>
               <p className="text-gray-600 mt-2">Shedules of your class are out now. Download the pdf</p>
               <a href="your pdf file url link" rel="noopener noreferrer" style={{ color: 'red' }}> Click here to view pdf </a> 
             </div>  */}
