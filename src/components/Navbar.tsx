@@ -7,9 +7,9 @@ const Navbar = () => {
   const menuItems = [
     { title: 'Home', href: '#home' },
     { title: 'About', href: '#about' },
-    { title: 'Courses', href: '#courses' },
-    { title: 'Updates', href: '#updates' },
-    { title: 'Contact', href: '#contact' },
+    { title: 'Latest Update', href: '#updates' },
+    { title: 'Registration Form', href: '#contact' },
+    // { title: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <GraduationCap className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-800">Hazrat Shah Waliullah</span>
+            <span className="ml-2 text-xl font-bold text-gray-800">Hazrat Shah Waliullah </span>
           </div>
           
           <div className="hidden md:block">
