@@ -19,7 +19,7 @@ const Navbar = () => {
 
             <GraduationCap className="h-8 w-8 text-blue-600" />
             <div className="flex flex-col text-center" style={{ marginLeft: '11px' }}>
-              <span style={{ fontSize: '25px', fontWeight: 'bold', color: 'black', lineHeight: '1.2' }}>Hazrat Shah Waliullah</span>
+              <span style={{ fontSize: '25.9px', fontWeight: 'bold', color: 'black', lineHeight: '1.2' }}>Hazrat Shah Waliullah</span>
               <span className="text-sm text-gray-600" style={{ lineHeight: '1.2' }}>Career Guidance and Coaching Academy</span>
             </div>
           </div>
